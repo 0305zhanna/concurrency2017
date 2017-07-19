@@ -1,4 +1,4 @@
-package lesson170713.produserconsumer;
+package lesson170718.Homework.produserconsumer;
 
 import lesson170310.Utils;
 
@@ -14,7 +14,7 @@ public class SynchQueueExample {
 
     public static void main(String[] args) {
 
-        BlockingQueue<String> window = new LinkedBlockingQueue<>();
+        ArrayBlockingQueue<String> window = new ArrayBlockingQueue<String>(4);
 
         Cook cook = new Cook(window);
 

@@ -1,7 +1,5 @@
-package lesson170713;
+package lesson170718.Homework.blockingqueue;
 
-import java.util.LinkedList;
-import java.util.Queue;
 
 /**
  * Created by User on 12.07.2017.
